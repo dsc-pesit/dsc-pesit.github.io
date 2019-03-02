@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Developer Student Club</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/logo.png">
+        <!-- this is to include the css and js files from the UIKit library -->
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+
+
+
+    <body>
+        <figure class="absolute-bg"></figure>
+        <div id="particles-js"> </div>
+        <!-- Navigation Bar -->
+        <section style="min-height: 100vh;" class="section uk-padding-large uk-padding-remove-vertical">
+            <div class="uk-position-relative">
+                    <div class="uk-position-top">
+                        <nav class="uk-navbar-container uk-navbar-transparent " uk-navbar>
+                            <div class="uk-navbar-right">
+                                <ul class="uk-navbar-nav">
+                                    <li class="uk-active" ><a href="#" style="color:black">Home</a></li>
+                                    <li ><a href="#About" style="color:black" >About</a></li>
+                                    <li><a href="#Events" style="color:black">Upcoming Events</a></li>
+                                    <li><a href="#Contact" style="color:black">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+            </div>
+
+            <!-- Logo-->
+            <div class="col-md-6 col-md-offset-3 text-center center" id="logo-area">
+                    <center>
+                        <img class="img img-responsive" style="max-height:380px;padding-top: 150px;" src="images/logo.png">
+                        <p style="font-size: 42px; font-weight: 800; padding-top: 30px;">Developer Student Clubs</p>
+                        <p style="font-size: 42px; font-weight: 800; ">Pesit-BSC</p>
+                    </center>
+                    
+            </div>
+        </section>
+        
+
+        <section style="min-height: 100vh;" class="section uk-padding-large uk-padding-remove-vertical" id="About">
+            <div class="col-sm-12 uk-padding uk-padding-remove-bottom" style="text-align:center;">
+                <h1 style="color:rgb(6, 6, 70);" >About</h1>
+            </div>
+                <div class="uk-child-width-1-2@m" uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-small">
+                                <div class="uk-card-body" style="background:rgb(6, 6, 70);">
+                                    <h3 class="uk-card-title" style="color:white">Workshops</h3>
+                                    <p style="color:white">DSCs organize and facilitate workshops on university campuses to provide students with technical development skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-small">
+                                <div class="uk-card-body" style="background:rgb(6, 6, 70);">
+                                    <h3 class="uk-card-title" style="color:white">Solution development activities</h3>
+                                    <p style="color:white">The students get an opportunity to apply their skills for a live problem sourced from the local community.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                </div>
+                <div class="uk-child-width-1-2@m" uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-small">
+                                <div class="uk-card-body" style="background:rgb(6, 6, 70);">
+                                    <h3 class="uk-card-title" style="color:white">Showcases</h3>
+                                    <p style="color:white">The students will present the solutions in campus and city-level showcases, thus gaining visibility and inspiring more students to learn and apply development skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-small">
+                                <div class="uk-card-body" style="background:rgb(6, 6, 70);">
+                                    <h3 class="uk-card-title" style="color:white">Conferences and other learning and development (L&D) opportunities</h3>
+                                    <p style="color:white">The DSC Leads might have opportunities to attend conferences, workshops and other L&D opportunities. They will be supported with invites, passes, travel grants and mentoring opportunities.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                </div>
+        </section>
+        <section style="min-height: 100vh;" class="section uk-padding-large uk-padding-remove-vertical" id="Events">
+            <div class="col-sm-12 uk-padding uk-padding-remove-bottom" style="text-align:center;">
+                <h1 style="color:rgb(6, 6, 70);" >Upcoming Events</h1>
+            </div> 
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin uk-card-small" uk-grid>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img src="images/DS.jpg" alt="" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Datathon</h3>
+                        <p>An online data science competetion.</p>
+                        <p>Date: 4th March 2019</p>
+                    </div>
+                </div>
+            </div>   
+            
+            
+        </section>
+       
+        
+
+
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <!--Script to load json file-->
+        <script>
+            particlesJS.load('particles-js','particles.json',
+            function(){
+                console.log('Json file loaded..')
+            })
+        </script>
+        
+
+    </body>
+</html>
+
