@@ -18,7 +18,7 @@
       }
     },
     "opacity": {
-      "value": 0.6211089197812949,
+      "value": 0.7211089197812949,
       "random": false,
       "anim": {
         "enable": true,
@@ -28,7 +28,7 @@
       }
     },
     "size": {
-      "value": 8.017060304327615,
+      "value": 9.017060304327615,
       "random": true,
       "anim": {
         "enable": true,
